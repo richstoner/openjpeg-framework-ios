@@ -63,6 +63,8 @@
 		A89A3D6A18458E3400943C6A /* thix_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = A89A3D3518458E3400943C6A /* thix_manager.c */; };
 		A89A3D6B18458E3400943C6A /* tpix_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = A89A3D3618458E3400943C6A /* tpix_manager.c */; };
 		A89A3D6C18458E7A00943C6A /* opjlib.h in Headers */ = {isa = PBXBuildFile; fileRef = A89A3CFA18458DAC00943C6A /* opjlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8AA85A41846745E0043B5A4 /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = A8AA85A21846745E0043B5A4 /* convert.c */; };
+		A8AA85A51846745E0043B5A4 /* convert.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AA85A31846745E0043B5A4 /* convert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +127,8 @@
 		A89A3D3418458E3400943C6A /* tgt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tgt.c; sourceTree = "<group>"; };
 		A89A3D3518458E3400943C6A /* thix_manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thix_manager.c; sourceTree = "<group>"; };
 		A89A3D3618458E3400943C6A /* tpix_manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tpix_manager.c; sourceTree = "<group>"; };
+		A8AA85A21846745E0043B5A4 /* convert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = convert.c; sourceTree = "<group>"; };
+		A8AA85A31846745E0043B5A4 /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		A89A3CF318458DAC00943C6A /* opjlib */ = {
 			isa = PBXGroup;
 			children = (
+				A8AA85A21846745E0043B5A4 /* convert.c */,
+				A8AA85A31846745E0043B5A4 /* convert.h */,
 				A89A3D0218458E3400943C6A /* bio.h */,
 				A89A3D0318458E3400943C6A /* cidx_manager.h */,
 				A89A3D0418458E3400943C6A /* cio.h */,
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89A3D6C18458E7A00943C6A /* opjlib.h in Headers */,
+				A8AA85A51846745E0043B5A4 /* convert.h in Headers */,
 				A89A3D4918458E3400943C6A /* opj_inttypes.h in Headers */,
 				A89A3D4718458E3400943C6A /* opj_includes.h in Headers */,
 				A89A3D4818458E3400943C6A /* opj_intmath.h in Headers */,
@@ -347,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AA85A41846745E0043B5A4 /* convert.c in Sources */,
 				A89A3D6418458E3400943C6A /* raw.c in Sources */,
 				A89A3D6318458E3400943C6A /* ppix_manager.c in Sources */,
 				A89A3D6218458E3400943C6A /* pi.c in Sources */,
